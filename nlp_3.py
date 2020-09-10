@@ -9,8 +9,9 @@ myfont = fm.FontProperties(fname='C:\Windows\Fonts\STXINWEI.TTF')
 
 
 def create_dataset():
-    datasets = array([[8, 4, 2], [7, 1, 1], [1, 4, 4], [3, 0, 5]])
-    labels = ['非常热', '非常热', '一般热', '一般热']
+    datasets = array([[8, 4, 2], [7, 1, 1], [1, 4, 4], [3, 0, 5], [9, 9, 3],
+                      [1, 3, 4]])
+    labels = ['非常热', '非常热', '一般热', '一般热', '非常热', '一般热']
     return datasets, labels
 
 
