@@ -6,7 +6,7 @@
 
 import tesserocr
 from PIL import Image
-image=Image.open('C:/Users/28258/Desktop/1.png')
+image=Image.open('1.png')
 print(tesserocr.image_to_text(image))
 
-print(tesserocr.file_to_text('C:/Users/28258/Desktop/1.png'))
+print(tesserocr.file_to_text('1.png'))
